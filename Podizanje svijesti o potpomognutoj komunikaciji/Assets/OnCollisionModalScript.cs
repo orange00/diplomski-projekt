@@ -5,10 +5,13 @@ using UnityEngine;
 public class OnCollisionModalScript : MonoBehaviour {
 
 	public GameObject modalPanelObject;
+	public GameObject correctAnswerMark;
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-		modalPanelObject.SetActive (true);
+		if (!correctAnswerMark.activeSelf) {
+			modalPanelObject.SetActive (true);
+		}
 	}
 
 	void OnCollisionExit2D(Collision2D collision)
