@@ -10,17 +10,23 @@ public class MultipleTaskModalScript : MonoBehaviour {
 
 	public GameObject correctAnswerAlert;
 
+	public GameObject slots;
+
 	/**
-	 * Goes to next task in the same modal, 
+	 * Goes to next task or subtask in the same modal, 
 	 * or finishes the last task, after 
 	 * the user chooses the correct answer.
 	 * 
 	 * */
 	public void NextTaskOrFinish() {
-		if (nextTask != null) {
-			StartCoroutine("NextTask");
+		if (slots == null || slots.GetComponent<SlotsScript> ().IsFull ()) {
+			if (nextTask != null) {
+				StartCoroutine ("NextTask");
+			} else {
+				StartCoroutine ("FinishObstacle");
+			}
 		} else {
-			StartCoroutine("FinishObstacle");
+			StartCoroutine ("ShowcaseCorrectAnswerAlert");
 		}
 	}
 
