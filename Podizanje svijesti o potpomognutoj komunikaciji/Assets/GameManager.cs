@@ -5,17 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
-    public Sprite soundOff, soundOn;
+	public Sprite soundOff, soundOn;
+	public AudioSource music;
+
+	private void Start() {
+		music.Play();
+	}
 
 	public void ChangeScene(string name) {
 		SceneManager.LoadScene(name);
 	}
 
-    public void ChangeVolume(bool enableVolume) {
-        if (!enableVolume) {
+	//public void ChangeVolume(bool enableVolume) {
+	//	if (!enableVolume) {
 
-        } else {
+	//	} else {
 
-        }
-    }
+	//	}
+	//}
 }
