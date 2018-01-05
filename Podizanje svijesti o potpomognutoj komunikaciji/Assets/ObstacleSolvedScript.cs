@@ -6,7 +6,7 @@ public class ObstacleSolvedScript : MonoBehaviour {
 	public GameObject correctAnswerHandler;
 
 	/**
-	 * Performs closing tasks, whhen a whole obstacle is solved, 
+	 * Performs closing tasks, when a whole obstacle is solved, 
 	 * (eg., closes modal, resolves question mark or glowing TV,...)
 	 * */
 	public void obstacleSolved ()

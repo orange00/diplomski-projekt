@@ -7,6 +7,13 @@ public class BasicController : MonoBehaviour {
     private Transform characterTransform;
     private Rigidbody2D charRigidbody;
     public float speed = 3f;
+
+    public Sprite maleSprite;
+    public Sprite femaleSprite;
+
+    public RuntimeAnimatorController femaleAnimator;
+    public RuntimeAnimatorController maleAnimator;
+
     public Camera mainCamera;
     private float offset;
     private SpriteRenderer spriteRenderer;
@@ -20,20 +27,31 @@ public class BasicController : MonoBehaviour {
         charRigidbody = GetComponent<Rigidbody2D>();
         characterTransform = GetComponent<Transform>();
         offset = mainCamera.transform.position.z - characterTransform.position.z;
-        //mainCamera.transform.position = new Vector3(character.transform.position.x, character.transform.position.y, offset);
         spriteRenderer = GetComponent<SpriteRenderer>();
         characterAnimator = GetComponent<Animator>();
+        
+
+        GameObject characterSelected = GameObject.Find("CharacterSelected");
+        Debug.Log(characterSelected.GetComponent<CharacterSelected>().characterName);
+        if (characterSelected.GetComponent<CharacterSelected>().characterName == "Female") {
+            spriteRenderer.sprite = femaleSprite;
+            characterAnimator.runtimeAnimatorController = femaleAnimator;
+            Debug.Log("Hey female");
+        } else {
+            spriteRenderer.sprite = maleSprite;
+            characterAnimator.runtimeAnimatorController = maleAnimator;
+            Debug.Log("Hey hey gay");
+        }
     }
 
     // Update is called once per frame
     void Update () {
 
+        //characterAnimator.enabled = true;
         moveX = Input.GetAxisRaw("Horizontal");
         moveY = Input.GetAxisRaw("Vertical");
 
         if (moveX == 0 && moveY == 0) {
-
-            //characterAnimator.Play("IdleStand");
             characterAnimator.SetBool("isMoving", false);
         }
 
@@ -45,11 +63,6 @@ public class BasicController : MonoBehaviour {
         }
     }
 
-    //private void LateUpdate() {
-        
-    //    mainCamera.transform.position = new Vector3(character.transform.position.x, character.transform.position.y, offset);
-    //}
-
     private void FixedUpdate() {
         MoveCharacter();
     }
@@ -60,11 +73,9 @@ public class BasicController : MonoBehaviour {
         if (moveX != 0) {
             CheckDirection(moveX);
             characterTransform.position += new Vector3(moveX * speed * Time.deltaTime, 0, 0);
-            //characterAnimator.SetBool("isMoving", true);
         }
         if (moveY != 0) {
             characterTransform.position += new Vector3(0, moveY * speed * Time.deltaTime, 0);
-            //characterAnimator.SetBool("isMoving", true);
         }      
     }
 

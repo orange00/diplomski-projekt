@@ -6,7 +6,7 @@ public class OnCollisionModalScript : MonoBehaviour {
 
 	public GameObject modalPanelObject;
 	public GameObject taskSolvedMark;
-
+	
 	void OnCollisionEnter2D(Collision2D collision)
 	{
 		if (!taskSolvedMark.activeSelf) {
