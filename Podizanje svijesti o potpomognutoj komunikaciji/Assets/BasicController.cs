@@ -36,11 +36,9 @@ public class BasicController : MonoBehaviour {
         if (characterSelected.GetComponent<CharacterSelected>().characterName == "Female") {
             spriteRenderer.sprite = femaleSprite;
             characterAnimator.runtimeAnimatorController = femaleAnimator;
-            Debug.Log("Hey female");
         } else {
             spriteRenderer.sprite = maleSprite;
             characterAnimator.runtimeAnimatorController = maleAnimator;
-            Debug.Log("Hey hey gay");
         }
     }
 

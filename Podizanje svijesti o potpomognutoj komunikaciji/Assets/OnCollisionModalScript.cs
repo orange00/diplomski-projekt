@@ -6,16 +6,16 @@ public class OnCollisionModalScript : MonoBehaviour {
 
 	public GameObject modalPanelObject;
 	public GameObject taskSolvedMark;
-	
-	void OnCollisionEnter2D(Collision2D collision)
+
+    void OnCollisionEnter2D(Collision2D collision)
 	{
 		if (!taskSolvedMark.activeSelf) {
-			modalPanelObject.SetActive (true);
-		}
+            modalPanelObject.SetActive (true);
+        }
 	}
 
-	void OnCollisionExit2D(Collision2D collision)
+    void OnCollisionExit2D(Collision2D collision)
 	{
-		modalPanelObject.SetActive (false);
-	}
+        modalPanelObject.SetActive(false);
+    }
 }
