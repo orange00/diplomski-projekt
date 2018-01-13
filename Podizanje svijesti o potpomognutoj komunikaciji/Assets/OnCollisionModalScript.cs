@@ -7,7 +7,6 @@ public class OnCollisionModalScript : MonoBehaviour {
 	public GameObject modalPanelObject;
 	public GameObject taskSolvedMark;
 
-<<<<<<< HEAD
     public GameObject CorrectImage1;
     public GameObject CorrectImage2;
     public GameObject CorrectImage3;
@@ -15,17 +14,7 @@ public class OnCollisionModalScript : MonoBehaviour {
     public GameObject Arrow;
     public GameObject LevelEnd;
 
-=======
->>>>>>> 767700e7eac12644faab7151b49780d0cdb55b34
-    void OnCollisionEnter2D(Collision2D collision)
-	{
-		if (!taskSolvedMark.activeSelf) {
-            modalPanelObject.SetActive (true);
-        }
-<<<<<<< HEAD
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
+    private void Update()
     {
         if (CorrectImage1.activeSelf && CorrectImage2.activeSelf && CorrectImage3.activeSelf)
         {
@@ -33,16 +22,15 @@ public class OnCollisionModalScript : MonoBehaviour {
             LevelEnd.SetActive(true);
         }
     }
-    void OnCollisionExit2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
 	{
-        modalPanelObject.SetActive(false);
-        
-=======
-	}
+		if (!taskSolvedMark.activeSelf) {
+            modalPanelObject.SetActive (true);
+        }
+    }
 
     void OnCollisionExit2D(Collision2D collision)
 	{
         modalPanelObject.SetActive(false);
->>>>>>> 767700e7eac12644faab7151b49780d0cdb55b34
     }
 }

@@ -45,9 +45,11 @@ public class MultipleTaskModalScript : MonoBehaviour {
 
 	public IEnumerator ShowcaseCorrectAnswerAlert ()
 	{
-		correctAnswerAlert.SetActive (true);
-		yield return new WaitForSeconds(1.2f);
-		correctAnswerAlert.SetActive (false);
+		if (correctAnswerAlert != null) {
+			correctAnswerAlert.SetActive (true);
+			yield return new WaitForSeconds (1.2f);
+			correctAnswerAlert.SetActive (false);
+		}
 	}
 
 

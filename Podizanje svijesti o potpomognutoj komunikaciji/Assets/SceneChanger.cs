@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour {
 
 	public void SceneChange(string sceneName) {
+        if (sceneName == "MainMenu") {
+            Destroy(GameObject.Find("CharacterSelected"));
+        }
         SceneManager.LoadScene(sceneName);
     }
 }
