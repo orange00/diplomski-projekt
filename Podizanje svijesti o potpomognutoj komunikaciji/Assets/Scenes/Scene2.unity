@@ -88,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -2474,7 +2473,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 206549572}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 151, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1257551989}
@@ -2504,7 +2503,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Poslo\u017Eite ponu\u0111ene simbole kako biste prikazali proces kupovine."
+  m_text: "Poslo\u017Ei ponu\u0111ene simbole kako bi prikazali proces kupovine."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8aca1459bd06730429994dbfbb6412db, type: 2}
   m_sharedMaterial: {fileID: 21440846876909998, guid: 8aca1459bd06730429994dbfbb6412db,
@@ -2628,7 +2627,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 217303273}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.000030517578, y: 138, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 94930360}
@@ -2844,7 +2843,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 244223403}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.0000009536743, z: 0}
   m_LocalScale: {x: 1, y: 1.0333357, z: 1}
   m_Children: []
   m_Father: {fileID: 1116710003}
@@ -3078,7 +3077,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 254550010}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0000038146973, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1828196951}
@@ -3437,12 +3436,12 @@ Prefab:
     - target: {fileID: 224301473726877846, guid: 69b1c9c7b5b84ff47b10a0e1d2abda40,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 347.76117
       objectReference: {fileID: 0}
     - target: {fileID: 224301473726877846, guid: 69b1c9c7b5b84ff47b10a0e1d2abda40,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 111.20056
       objectReference: {fileID: 0}
     - target: {fileID: 224301473726877846, guid: 69b1c9c7b5b84ff47b10a0e1d2abda40,
         type: 2}
@@ -3472,7 +3471,7 @@ Prefab:
     - target: {fileID: 224301473726877846, guid: 69b1c9c7b5b84ff47b10a0e1d2abda40,
         type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 224301473726877846, guid: 69b1c9c7b5b84ff47b10a0e1d2abda40,
         type: 2}
@@ -3951,7 +3950,7 @@ Prefab:
     - target: {fileID: 114909705973442552, guid: 112c69a9877ce314b8dd9257a59321e4,
         type: 2}
       propertyPath: m_Text
-      value: "Poslo\u017Eite ponu\u0111ene simbole kako biste prikazali proces kupovine."
+      value: "Poslo\u017Ei ponu\u0111ene simbole kako bi prikazali proces kupovine."
       objectReference: {fileID: 0}
     - target: {fileID: 1122578475164108, guid: 112c69a9877ce314b8dd9257a59321e4, type: 2}
       propertyPath: m_IsActive
@@ -5658,6 +5657,16 @@ Prefab:
       propertyPath: wrongAnswerAlert
       value: 
       objectReference: {fileID: 254550010}
+    - target: {fileID: 114814440375786890, guid: 112c69a9877ce314b8dd9257a59321e4,
+        type: 2}
+      propertyPath: m_Text
+      value: "Na odjelu za vo\u0107e i povr\u0107e mo\u017Ee se na\u0107i - \u0161to?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541302310055492, guid: 112c69a9877ce314b8dd9257a59321e4,
+        type: 2}
+      propertyPath: m_Text
+      value: "\u0160to mo\u017Ee\u0161 kupiti u du\u0107anu?"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 112c69a9877ce314b8dd9257a59321e4, type: 2}
   m_IsPrefabParent: 0
@@ -6038,12 +6047,12 @@ Prefab:
     - target: {fileID: 224105921889374006, guid: e0f99bf515a82a64dbaa38d1ca48a5c8,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.1763535
       objectReference: {fileID: 0}
     - target: {fileID: 224105921889374006, guid: e0f99bf515a82a64dbaa38d1ca48a5c8,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.999878
       objectReference: {fileID: 0}
     - target: {fileID: 224105921889374006, guid: e0f99bf515a82a64dbaa38d1ca48a5c8,
         type: 2}
@@ -6073,7 +6082,7 @@ Prefab:
     - target: {fileID: 224105921889374006, guid: e0f99bf515a82a64dbaa38d1ca48a5c8,
         type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 224105921889374006, guid: e0f99bf515a82a64dbaa38d1ca48a5c8,
         type: 2}
@@ -6158,7 +6167,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 615804872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 219.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1341628079}
@@ -6264,11 +6273,11 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -6422,7 +6431,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 686884711}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 151, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 558396982}
@@ -6594,176 +6603,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8301349316c4b9428cdcd2603c4675f, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &717903523
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1723275053286290, guid: 93e79ef375859874684ac520c70fe69b, type: 2}
-      propertyPath: m_Name
-      value: InstructionsCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 114363705499219032, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1723275053286290, guid: 93e79ef375859874684ac520c70fe69b, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114367880466981788, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114367880466981788, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_text
-      value: "\u010Cestitamo! Pomogao si mi i uspje\u0161no smo savladali prvu razinu.
-        \U0001F60A \n\nIspred tebe se nalazi novi izazov. Trgovac si u trgovini i
-        treba\u0161 pomo\u0107i osobama s pote\u0161ko\u0107ama u komunikaciji u kupnji.
-        Osobe kojima je potrebna pomo\u0107 mo\u017Ee\u0161 prepoznati po upitnicima
-        koji im se nalaze iznad glave. Uz pomo\u0107 strelica: gore, dolje, lijevo,
-        desno do\u0111i do svakog od likova i pomozi im u snala\u017Eenju. Ne zaboravi,
-        pomo\u0107i im jedino mo\u017Ee\u0161 koriste\u0107i razne oblike potpomognute
-        komunikacije! \U0001F60A"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_textInfo.characterCount
-      value: 464
-      objectReference: {fileID: 0}
-    - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_textInfo.spaceCount
-      value: 76
-      objectReference: {fileID: 0}
-    - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_textInfo.lineCount
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_textInfo.wordCount
-      value: 73
-      objectReference: {fileID: 0}
-    - target: {fileID: 223575747270831502, guid: 93e79ef375859874684ac520c70fe69b,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 93e79ef375859874684ac520c70fe69b, type: 2}
-  m_IsPrefabParent: 0
 --- !u!224 &727435727 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224554067351435584, guid: 364e06f1d09b2544db3bcb50b37345af,
@@ -6803,7 +6642,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 836300033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 113, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1452346227}
@@ -6833,7 +6672,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Djevoj\u010Dica komunicira samo pomo\u0107u simbola"
+  m_text: "Djevoj\u010Dica komunicira samo pomo\u0107u simbola."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8aca1459bd06730429994dbfbb6412db, type: 2}
   m_sharedMaterial: {fileID: 21440846876909998, guid: 8aca1459bd06730429994dbfbb6412db,
@@ -7026,7 +6865,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 869691874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1601267363}
@@ -7043,7 +6882,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 869691874}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1908110080, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
   m_Name: 
@@ -7355,7 +7194,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 925714912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 7.100006, y: 122.90001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 94930363}
@@ -7509,7 +7348,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 967725930}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 16, y: 139, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 94930361}
@@ -7664,7 +7503,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 973716238}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 43.25, y: -1.3800011, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 455338156}
@@ -7760,7 +7599,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1016391346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 79.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1968911992}
@@ -7868,11 +7707,11 @@ MonoBehaviour:
     lineCount: 4
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -8274,7 +8113,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1111296259}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 151, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 727435727}
@@ -8441,7 +8280,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1195961173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 19.6, y: -93.4, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1040141526}
@@ -9064,7 +8903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1264294853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9133,7 +8972,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1264294852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 283.5, y: 159.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1341628079}
@@ -9172,7 +9011,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1292488491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 13, y: -125, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1022111867}
@@ -9453,7 +9292,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1336848344}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 363, y: 227, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1214464820}
@@ -9581,7 +9420,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1341628078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 32.799988, y: 11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1336848345}
@@ -9715,7 +9554,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1373300951}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 132, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 94930362}
@@ -9923,7 +9762,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1386021565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 37, y: 90, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1350882010}
@@ -9954,7 +9793,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "Kupac dolazi iz Ukrajine i ne pri\u010Da hrvatski. Poslu\u0161aj je i poku\u0161aj
-    odabrati od ponu\u0111enih odgovora onaj simbol koji je kupac spomenuo"
+    odabrati od ponu\u0111enih odgovora onaj simbol koji je kupac spomenuo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8aca1459bd06730429994dbfbb6412db, type: 2}
   m_sharedMaterial: {fileID: 21440846876909998, guid: 8aca1459bd06730429994dbfbb6412db,
@@ -10022,7 +9861,7 @@ MonoBehaviour:
   m_margin: {x: -91.95894, y: -18.391815, z: -28.055372, w: -38.19832}
   m_textInfo:
     textComponent: {fileID: 1386021567}
-    characterCount: 133
+    characterCount: 134
     spriteCount: 0
     spaceCount: 21
     wordCount: 22
@@ -10030,11 +9869,11 @@ MonoBehaviour:
     lineCount: 3
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -10083,7 +9922,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1436025571}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 147.94998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1961741079}
@@ -10113,7 +9952,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Na odjelu za vo\u0107e i povr\u0107e mo\u017Eemo prona\u0107i koja 3 artikla?"
+  m_text: "Na odjelu za vo\u0107e i povr\u0107e mogu se prona\u0107i koja 3 artikla?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8aca1459bd06730429994dbfbb6412db, type: 2}
   m_sharedMaterial: {fileID: 21440846876909998, guid: 8aca1459bd06730429994dbfbb6412db,
@@ -10333,7 +10172,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485142532}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.000030517578, y: 124, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 913921371}
@@ -10363,8 +10202,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Odaberi 3 artikla koja odgovaraju na pitanje:\n\n\u0160to mo\u017Eete kupiti
-    u du\u0107anu?"
+  m_text: "Odaberi 3 artikla koja odgovaraju na pitanje:\n\n\u0160to mo\u017Ee\u0161
+    kupiti u du\u0107anu?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8aca1459bd06730429994dbfbb6412db, type: 2}
   m_sharedMaterial: {fileID: 21440846876909998, guid: 8aca1459bd06730429994dbfbb6412db,
@@ -10491,7 +10330,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1512690882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.0000038146973, z: 0}
   m_LocalScale: {x: 0.93749994, y: 0.9117667, z: 1}
   m_Children: []
   m_Father: {fileID: 1767128368}
@@ -10642,7 +10481,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1517888122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 140, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1177913146}
@@ -10801,7 +10640,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1601267362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.5700073, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 869691875}
@@ -10833,10 +10672,10 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u010Cestitamo! \n\nPomogao si mi i uspje\u0161no smo savladali prvu razinu.\r
-    \nIspred tebe se nalazi novi izazov. \n\nU trgovini si i osobe s pote\u0161ko\u0107ama
+    \nIspred tebe se nalazi novi izazov. \n\nU trgovini si i osobe s te\u0161ko\u0107ama
     u komunikaciji trebaju tvoju pomo\u0107 pri kupovini. \nOsobe kojima je potrebna
     pomo\u0107 mo\u017Ee\u0161 prepoznati po upitnicima koji im se nalaze iznad glave.
-    \nUz pomo\u0107 strelica: gore, dolje, lijevo, desno do\u0111i do svakog kupca
+    \nUz pomo\u0107 strelica: gore, dolje, lijevo i desno do\u0111i do svakog kupca
     i pomozi mu u snala\u017Eenju. \n\nNe zaboravi, pomo\u0107i mu jedino mo\u017Ee\u0161
     koriste\u0107i razne oblike potpomognute komunikacije!\r\n"
   m_isRightToLeft: 0
@@ -10906,19 +10745,19 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1601267364}
-    characterCount: 466
+    characterCount: 465
     spriteCount: 0
-    spaceCount: 81
-    wordCount: 72
+    spaceCount: 82
+    wordCount: 73
     linkCount: 0
     lineCount: 14
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -10997,7 +10836,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1736472174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.0000076293945, y: -0.0000009536743, z: 0}
   m_LocalScale: {x: 1, y: 1.0333357, z: 1}
   m_Children: []
   m_Father: {fileID: 789586881}
@@ -13140,7 +12979,7 @@ Prefab:
     - target: {fileID: 224533989827831974, guid: e0fae271df8162c468623af46258a139,
         type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 224533989827831974, guid: e0fae271df8162c468623af46258a139,
         type: 2}
@@ -13293,7 +13132,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2034056680}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 148, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1062986602}
@@ -13510,7 +13349,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2080309346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: -129, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1241917435}
