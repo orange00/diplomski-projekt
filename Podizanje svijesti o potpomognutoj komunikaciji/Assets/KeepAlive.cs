@@ -2,42 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class KeepAlive : MonoBehaviour {
 
-    private bool sfx = true;
-    private bool instructions = true;
-    public Slider volumeSlider;
+	private bool sfx = true;
+	private bool instructions = true;
 
-    private float maxVolume = 0.3f;
+	private float scaleVolumeValue;
 
-    private AudioSource audioSource;
+	private float maxVolume = 0.3f;
 
-    private static KeepAlive instance = null;
+	private AudioSource audioSource;
 
-    public bool Sfx {
-        get {
-            return sfx;
-        }
+	private bool changedSettings = false;
 
-        set {
-            sfx = value;
-        }
-    }
+	private static KeepAlive instance = null;
 
-    public bool Instructions {
-        get {
-            return instructions;
-        }
-
-        set {
-            instructions = value;
-        }
-    }
-
-    public static KeepAlive Instance {
-		get { return Instance; }
-	}
+	private Slider volumeSlider;
+	private Toggle sfxToggle;
+	private Toggle instructionsToggle;
 
 	private void Awake() {
 		if (instance != null && instance != this) {
@@ -49,20 +33,69 @@ public class KeepAlive : MonoBehaviour {
 		DontDestroyOnLoad(this.gameObject);
 	}
 
-    private void Start() {
-        audioSource = GetComponent<AudioSource>();
-    }
+	private void Start() {
+		audioSource = GetComponent<AudioSource>();
+	}
 
-    public void ChangeVolume(float scaleVolume) {
-        volumeSlider.value = scaleVolume;
-        audioSource.volume = maxVolume * scaleVolume;
-    }
+	public void ChangeVolume(float scaleVolume) {
+		ChangedSettings = true;
+		ScaleVolumeValue = scaleVolume;
+		audioSource.volume = maxVolume * scaleVolume;
+	}
 
-    public void ChangeSFX() {
-        sfx = !sfx;
-    }
+	public void ChangeSFX() {
+		ChangedSettings = true;
+		sfx = !sfx;
+	}
 
-    public void ChangeInstructions() {
-        instructions = !instructions;
-    }
+	public void ChangeInstructions() {
+		ChangedSettings = true;
+		instructions = !instructions;
+	}
+
+	public bool Sfx {
+		get {
+			return sfx;
+		}
+
+		set {
+			sfx = value;
+		}
+	}
+
+	public bool Instructions {
+		get {
+			return instructions;
+		}
+
+		set {
+			instructions = value;
+		}
+	}
+
+	public static KeepAlive Instance {
+		get {
+			return Instance;
+		}
+	}
+
+	public float ScaleVolumeValue {
+		get {
+			return scaleVolumeValue;
+		}
+
+		set {
+			scaleVolumeValue = value;
+		}
+	}
+
+	public bool ChangedSettings {
+		get {
+			return changedSettings;
+		}
+
+		set {
+			changedSettings = value;
+		}
+	}
 }

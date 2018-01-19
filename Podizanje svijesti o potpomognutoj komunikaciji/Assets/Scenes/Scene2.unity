@@ -153,12 +153,12 @@ Prefab:
     - target: {fileID: 224024004697293654, guid: cc2760e2d3bc8f44dabffdb153211ce8,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 283.5
+      value: 336
       objectReference: {fileID: 0}
     - target: {fileID: 224024004697293654, guid: cc2760e2d3bc8f44dabffdb153211ce8,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 159.5
+      value: 189
       objectReference: {fileID: 0}
     - target: {fileID: 224024004697293654, guid: cc2760e2d3bc8f44dabffdb153211ce8,
         type: 2}
@@ -3542,12 +3542,12 @@ Prefab:
     - target: {fileID: 224362900477017050, guid: 112c69a9877ce314b8dd9257a59321e4,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 283.5
+      value: 336
       objectReference: {fileID: 0}
     - target: {fileID: 224362900477017050, guid: 112c69a9877ce314b8dd9257a59321e4,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 159.5
+      value: 189
       objectReference: {fileID: 0}
     - target: {fileID: 224362900477017050, guid: 112c69a9877ce314b8dd9257a59321e4,
         type: 2}
@@ -6740,19 +6740,19 @@ MonoBehaviour:
   m_margin: {x: -91.95894, y: -18.391815, z: -103.27704, w: -38.19832}
   m_textInfo:
     textComponent: {fileID: 836300035}
-    characterCount: 40
+    characterCount: 42
     spriteCount: 0
-    spaceCount: 5
-    wordCount: 6
+    spaceCount: 4
+    wordCount: 5
     linkCount: 0
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -7707,11 +7707,11 @@ MonoBehaviour:
     lineCount: 4
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -8972,7 +8972,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1264294852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 283.5, y: 159.5, z: 0}
+  m_LocalPosition: {x: 336, y: 189, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1341628079}
@@ -9869,11 +9869,11 @@ MonoBehaviour:
     lineCount: 3
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -10020,10 +10020,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1436025573}
-    characterCount: 57
+    characterCount: 58
     spriteCount: 0
-    spaceCount: 10
-    wordCount: 11
+    spaceCount: 11
+    wordCount: 12
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -11068,12 +11068,12 @@ Prefab:
     - target: {fileID: 224998569062351114, guid: 364e06f1d09b2544db3bcb50b37345af,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 283.5
+      value: 336
       objectReference: {fileID: 0}
     - target: {fileID: 224998569062351114, guid: 364e06f1d09b2544db3bcb50b37345af,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 159.5
+      value: 189
       objectReference: {fileID: 0}
     - target: {fileID: 224998569062351114, guid: 364e06f1d09b2544db3bcb50b37345af,
         type: 2}
@@ -12944,12 +12944,12 @@ Prefab:
     - target: {fileID: 224533989827831974, guid: e0fae271df8162c468623af46258a139,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 283.5
+      value: 336
       objectReference: {fileID: 0}
     - target: {fileID: 224533989827831974, guid: e0fae271df8162c468623af46258a139,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 159.5
+      value: 189
       objectReference: {fileID: 0}
     - target: {fileID: 224533989827831974, guid: e0fae271df8162c468623af46258a139,
         type: 2}

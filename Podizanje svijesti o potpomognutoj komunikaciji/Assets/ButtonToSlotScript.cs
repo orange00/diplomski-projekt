@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ButtonToSlotScript : MonoBehaviour {
 	public GameObject slots;
 	public Button button;
+	public GameObject buttonText;
 
 	public int buttonOrder;
 
@@ -14,6 +15,11 @@ public class ButtonToSlotScript : MonoBehaviour {
 	public void moveToSlot() {
 		slots.GetComponent<SlotsScript> ().MoveToSlot (button.gameObject);
 		button.interactable = false;
+
+		Text buttonText = button.GetComponentInChildren<Text> ();
+		if (buttonText != null) {
+			buttonText.gameObject.SetActive (false);
+		}
 	}
 
 	public void moveToSlotOrdered() {
