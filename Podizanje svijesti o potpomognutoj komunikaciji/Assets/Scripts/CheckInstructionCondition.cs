@@ -12,6 +12,7 @@ namespace Assets.Scripts {
 
         private void Start() {
             keepAliveReference = GameObject.Find("AudioManager").GetComponent<KeepAlive>();
+            Debug.Log(keepAliveReference.Instructions);
             if (keepAliveReference.Instructions) {
                 instructionCanvas.SetActive(true);
             } else {

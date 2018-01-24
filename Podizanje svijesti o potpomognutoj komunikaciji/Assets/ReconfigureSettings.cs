@@ -17,9 +17,7 @@ public class ReconfigureSettings : MonoBehaviour {
         instructionsEnabled = GameObject.Find("InstructionsToggle").GetComponent<Toggle>();
         sfxEnabled = GameObject.Find("SfxToggle").GetComponent<Toggle>();
 
-        volumeValue.onValueChanged.AddListener(delegate { ChangeVolume(); });
-        instructionsEnabled.onValueChanged.AddListener(delegate { ChangeInstructions(); });
-        sfxEnabled.onValueChanged.AddListener(delegate { ChangeSFX(); });
+        
 
         audioManager = GameObject.Find("AudioManager");
         if (audioManager.GetComponent<KeepAlive>().ChangedSettings) {
@@ -27,7 +25,9 @@ public class ReconfigureSettings : MonoBehaviour {
             instructionsEnabled.isOn = audioManager.GetComponent<KeepAlive>().Instructions;
             sfxEnabled.isOn = audioManager.GetComponent<KeepAlive>().Sfx;
         }
-        
+        volumeValue.onValueChanged.AddListener(delegate { ChangeVolume(); });
+        instructionsEnabled.onValueChanged.AddListener(delegate { ChangeInstructions(); });
+        sfxEnabled.onValueChanged.AddListener(delegate { ChangeSFX(); });
     }
     public void ChangeVolume() {
         audioManager.GetComponent<KeepAlive>().ChangeVolume(volumeValue.value);

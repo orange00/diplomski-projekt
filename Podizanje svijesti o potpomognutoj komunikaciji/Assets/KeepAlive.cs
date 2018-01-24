@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class KeepAlive : MonoBehaviour {
 
@@ -46,12 +47,16 @@ public class KeepAlive : MonoBehaviour {
 	public void ChangeSFX() {
 		ChangedSettings = true;
 		sfx = !sfx;
-	}
+        Debug.Log("sfx= +" + sfx);
+        Debug.Log(Environment.StackTrace);
+    }
 
 	public void ChangeInstructions() {
 		ChangedSettings = true;
 		instructions = !instructions;
-	}
+        Debug.Log("insructions= +" + instructions);
+        Debug.Log(Environment.StackTrace);
+    }
 
 	public bool Sfx {
 		get {
