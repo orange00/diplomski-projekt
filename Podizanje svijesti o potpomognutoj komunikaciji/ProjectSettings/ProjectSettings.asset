@@ -44,7 +44,7 @@ PlayerSettings:
   defaultScreenWidth: 1024
   defaultScreenHeight: 576
   defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenHeightWeb: 540
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   m_MTRendering: 1
@@ -63,7 +63,7 @@ PlayerSettings:
   use32BitDisplayBuffer: 1
   disableDepthAndStencilBuffers: 0
   androidBlitType: 0
-  defaultIsFullScreen: 0
+  defaultIsFullScreen: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
@@ -75,7 +75,7 @@ PlayerSettings:
   usePlayerLog: 0
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
-  resizableWindow: 1
+  resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 0
