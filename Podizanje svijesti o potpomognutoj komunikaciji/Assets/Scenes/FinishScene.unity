@@ -1384,7 +1384,7 @@ Prefab:
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_text
-      value: "Hvala na igranju i \u010Destitamo na uspje\u0161no savladanim preprekama.
+      value: "Hvala na igranju i \n\u010Destitamo na uspje\u0161no savladanim preprekama.
         \U0001F60A\n\nOsobe sa slo\u017Eenim komunikacijskim potrebama svakodnevno
         se susre\u0107u s ovakvim i brojnim drugim te\u0161ko\u0107ama. U tome im
         poma\u017Ee potpomognuta komunikacija, od kojih je jedan oblik i komunikacija
@@ -1395,7 +1395,7 @@ Prefab:
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_textInfo.characterCount
-      value: 444
+      value: 445
       objectReference: {fileID: 0}
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
@@ -1405,17 +1405,17 @@ Prefab:
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_textInfo.spaceCount
-      value: 69
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_textInfo.lineCount
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_firstOverflowCharacterIndex
-      value: -1
+      value: 406
       objectReference: {fileID: 0}
     - target: {fileID: 1571650600492260, guid: 93e79ef375859874684ac520c70fe69b, type: 2}
       propertyPath: m_IsActive
@@ -1490,12 +1490,12 @@ Prefab:
     - target: {fileID: 224749477409881580, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 210.1
+      value: 208.86
       objectReference: {fileID: 0}
     - target: {fileID: 224749477409881580, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 108.1
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 114959171819902576, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
@@ -1525,7 +1525,7 @@ Prefab:
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224144639648543196, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
@@ -1545,17 +1545,17 @@ Prefab:
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224749477409881580, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 17.49
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 224749477409881580, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 17.49
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114257711334381758, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
@@ -1605,12 +1605,12 @@ Prefab:
     - target: {fileID: 224749477409881580, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 210.1
+      value: 208.86
       objectReference: {fileID: 0}
     - target: {fileID: 224749477409881580, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 108.1
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 224749477409881580, guid: 93e79ef375859874684ac520c70fe69b,
         type: 2}
