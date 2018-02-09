@@ -158,11 +158,13 @@ EdgeCollider2D:
   m_Points:
   - {x: -14.814564, y: -6.425897}
   - {x: -14.786974, y: -4.972529}
-  - {x: -13.709589, y: -5.1186438}
+  - {x: -14.70018, y: -5.092122}
+  - {x: -13.691265, y: -5.0859513}
   - {x: -13.700352, y: -4.950646}
   - {x: -14.800105, y: -4.9551907}
   - {x: -14.780525, y: -3.3248696}
-  - {x: -12.340061, y: -3.29739}
+  - {x: -12.442462, y: -3.3103747}
+  - {x: -12.397438, y: -3.459318}
   - {x: -14.822166, y: -3.2659147}
   - {x: -14.797827, y: -0.7248287}
   - {x: -13.83483, y: -0.7282178}
@@ -11869,22 +11871,22 @@ Prefab:
     - target: {fileID: 61482295781188948, guid: 0061dc1ea0cd50b41b203cff27870bd3,
         type: 2}
       propertyPath: m_Offset.x
-      value: -5.815689
+      value: -0.9148884
       objectReference: {fileID: 0}
     - target: {fileID: 61482295781188948, guid: 0061dc1ea0cd50b41b203cff27870bd3,
         type: 2}
       propertyPath: m_Size.x
-      value: 26.183891
+      value: 25.2038
       objectReference: {fileID: 0}
     - target: {fileID: 61482295781188948, guid: 0061dc1ea0cd50b41b203cff27870bd3,
         type: 2}
       propertyPath: m_Offset.y
-      value: 2.826025
+      value: 0.58446264
       objectReference: {fileID: 0}
     - target: {fileID: 61482295781188948, guid: 0061dc1ea0cd50b41b203cff27870bd3,
         type: 2}
       propertyPath: m_Size.y
-      value: 25.517452
+      value: 21.034328
       objectReference: {fileID: 0}
     - target: {fileID: 4160468674992942, guid: 0061dc1ea0cd50b41b203cff27870bd3, type: 2}
       propertyPath: m_LocalPosition.x
